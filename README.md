@@ -1,2 +1,2 @@
-# Tip-Calculator
-Created a Tip Calculator web app using HTML,CSS and JavaScript. - Bill amount input - Tip percentage selection  -Real time calculation of tip  per person  Project built for learning and practicing DOM  Manipulation and form Handling
+# Tip Calculator
+ This is a simple Tip Calculator web application that helps users quickly calculate the amount and total bill per person . It's a beginner-friendly project built to practice corenconcepts of HTML, CSS and JavaScript.
