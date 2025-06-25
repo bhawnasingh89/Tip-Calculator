@@ -7,10 +7,9 @@ const output = document.createElement("p");
 button.addEventListener("click" , () =>{
     const bill = parseFloat(billInput.value);
     const tipPercent = parseFloat(tipInput.value);
-    //  console.log("clicked");
 
-if(!bill || ! tipPercent) {
-    result.textContent = "Please enter a valid number";
+if (!bill || !tipPercent || bill <= 0 || tipPercent < 0) {
+    output.textContent = "Please enter a valid number";
 }else{
     const tipAmount = (tipPercent/100)*bill;
     const total = bill+tipAmount;
